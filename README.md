@@ -4,8 +4,8 @@
   - Using Carr-Madan, CONV, COS methods (ch.f. methods) for recovery of cumulative distribution function (CDF) and probability density function (PDF) given characteristic function (i.e. Black-Scholes, Heston model)
 ## Stage 2
   - Using ch.f. methods for pricing vanilla options under the Heston model.
-  - Heston model's ch.f $\rightarrow$ COS method $\rightarrow$ $\rightarrow$ Price Option  
-    
+  - Derive Heston model's ch.f. $\rightarrow$ COS method $\rightarrow$ Price Option  
+      - Other models: Variance Gamme, NIG, CGMY.
 ## Stage 3
   - Can we make use of ch.f. methods in the rough volatility setup - under rough Heston, rough Bergomi models?
 
