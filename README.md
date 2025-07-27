@@ -1,17 +1,20 @@
 # Welcome to my Project
-
+This project tries to explore a question if the characteristic function methods are also applicable within the rough volatility framework, and how exactly can we make use of these methods for efficient pricing.
+  - First question is if we would have a characteristic function for a rough Heston model, or rough Bergomi model.
+      - O. Euch, M. Rosenbaum. The characteristic function of rough Heston models: https://arxiv.org/abs/1609.02108
+  - 
 ## Stage 1
   - Using Carr-Madan, CONV, COS methods (ch.f. methods) for recovery of cumulative distribution function (CDF) and probability density function (PDF) given characteristic function (i.e. Black-Scholes, Heston model)
 ## Stage 2
   - Using ch.f. methods for pricing vanilla options under the Heston model.
   - Derive Heston model's ch.f. $\rightarrow$ COS method $\rightarrow$ Price Option  
       - Add other models: Variance Gamme, NIG, CGMY.
-- Replicates: Fang, F., & Oosterlee, C. W. (2008). A novel pricing method for European options based on Fourier‑cosine series expansions (the COS method). SIAM Journal on Scientific Computing, 31(2), 826–848.
-  - link: http://ta.twi.tudelft.nl/mf/users/oosterle/oosterlee/COS.pdf
+- Replicates: Fang, F., & Oosterlee, C. W. (2008). A novel pricing method for European options based on Fourier‑cosine series expansions (the COS method). SIAM Journal on Scientific Computing, 31(2), 826–848. link: http://ta.twi.tudelft.nl/mf/users/oosterle/oosterlee/COS.pdf
 ## Stage 3
   - Can we make use of ch.f. methods in the rough volatility setup - under rough Heston, rough Bergomi models?
 
 - P. Pezzoli Frigerio. Efficient option pricing under rough volatility models (MSc thesis). TU Delft. Link: https://repository.tudelft.nl/record/uuid:332fcf38-73eb-4da6-8640-09ef4ae5cc74
+- O. Euch, M. Rosenbaum. The characteristic function of rough Heston models: https://arxiv.org/abs/1609.02108
 
 #### For much later
 Market Making under Rough Volatility
